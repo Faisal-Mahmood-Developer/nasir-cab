@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #212121;
+    background-color: #ffffff;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+    line-height: 1.2;
+  }
+}
+
+@layer components {
+  .btn-gold {
+    @apply bg-gold-500 text-black font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:bg-black hover:text-gold-500 hover:shadow-gold-lg inline-flex items-center gap-2;
+  }
+
+  .btn-outline-gold {
+    @apply border-2 border-gold-500 text-gold-500 font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:bg-gold-500 hover:text-black inline-flex items-center gap-2;
+  }
+
+  .btn-black {
+    @apply bg-black text-gold-500 font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:bg-gold-500 hover:text-black inline-flex items-center gap-2;
+  }
+
+  .section-heading {
+    @apply text-3xl md:text-4xl font-bold text-dark-900 mb-4;
+  }
+
+  .section-subheading {
+    @apply text-lg text-dark-400 mb-12 max-w-2xl mx-auto;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 overflow-hidden;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    background: linear-gradient(135deg, #F5B400 0%, #d99e00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+/* Pricing table scrollbar */
+.pricing-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+.pricing-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+.pricing-scroll::-webkit-scrollbar-thumb {
+  background: #F5B400;
+  border-radius: 3px;
+}

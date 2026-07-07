@@ -1,0 +1,93 @@
+// Service offerings shown on the Home and Services pages.
+import {
+  FaPlaneArrival,
+  FaPlaneDeparture,
+  FaHotel,
+  FaMosque,
+  FaMountain,
+  FaMapMarkedAlt,
+  FaCrown,
+  FaUsers,
+  FaBriefcase,
+  FaUserTie,
+} from 'react-icons/fa';
+
+export const services = [
+  {
+    id: 'airport-pickup',
+    title: 'Airport Pickup',
+    description: 'Punctual meet-and-greet service at Jeddah and Madinah airports with flight tracking.',
+    icon: FaPlaneArrival,
+    image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 'airport-dropoff',
+    title: 'Airport Drop-off',
+    description: 'On-time departure transfers from your hotel to Jeddah or Madinah airport.',
+    icon: FaPlaneDeparture,
+    image: 'https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 'hotel-transfer',
+    title: 'Hotel Transfer',
+    description: 'Comfortable rides between hotels, airports, and holy sites across Saudi Arabia.',
+    icon: FaHotel,
+    image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 'makkah-ziyarat',
+    title: 'Makkah Ziyarat',
+    description: 'Guided tours of sacred sites in and around Makkah with knowledgeable drivers.',
+    icon: FaMosque,
+    image: 'https://images.pexels.com/photos/5965644/pexels-photo-5965644.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 'madinah-ziyarat',
+    title: 'Madinah Ziyarat',
+    description: 'Visit the blessed sites of Madinah including Uhud, Quba, and Wadi Jin.',
+    icon: FaMapMarkedAlt,
+    image: 'https://images.pexels.com/photos/7679706/pexels-photo-7679706.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 'taif-tour',
+    title: 'Taif Tour',
+    description: 'Scenic mountain tours to Taif with stops at rose gardens and historical sites.',
+    icon: FaMountain,
+    image: 'https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 'badr-tour',
+    title: 'Badr Tour',
+    description: 'Historical Badr Ziyarat tour covering the site of the famous Battle of Badr.',
+    icon: FaMapMarkedAlt,
+    image: 'https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 'vip-transfer',
+    title: 'VIP Transfer',
+    description: 'Premium chauffeur service with luxury vehicles for distinguished guests.',
+    icon: FaCrown,
+    image: 'https://images.pexels.com/photos/3954571/pexels-photo-3954571.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 'family-transport',
+    title: 'Family Transport',
+    description: 'Spacious, safe, and comfortable vehicles perfect for family travel.',
+    icon: FaUsers,
+    image: 'https://images.pexels.com/photos/3933025/pexels-photo-3933025.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 'business-travel',
+    title: 'Business Travel',
+    description: 'Reliable, professional transport for corporate clients and executives.',
+    icon: FaBriefcase,
+    image: 'https://images.pexels.com/photos/3806288/pexels-photo-3806288.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
+    id: 'travel-agent',
+    title: 'Travel Agent Services',
+    description: 'Dedicated fleet solutions for travel agencies and tour operators.',
+    icon: FaUserTie,
+    image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+];
