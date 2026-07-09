@@ -4,7 +4,7 @@ export const vehicles = [
   {
     id: 'hyundai-tucson',
     name: 'Hyundai Tucson',
-    image: 'https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/Tucson.jpg',
     passengers: 4,
     luggage: '3 Large, 3 Small',
     ac: true,
@@ -34,7 +34,7 @@ export const vehicles = [
   {
     id: 'hyundai-h1',
     name: 'Hyundai H1',
-    image: 'https://images.pexels.com/photos/3802516/pexels-photo-3802516.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/h1.jpg',
     passengers: 7,
     luggage: '7 Large, 7 Small',
     ac: true,
@@ -44,7 +44,7 @@ export const vehicles = [
   {
     id: 'hyundai-staria',
     name: 'Hyundai Staria',
-    image: 'https://images.pexels.com/photos/510101/pexels-photo-510101.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/Staria.jpg',
     passengers: 7,
     luggage: '7 Large, 7 Small',
     ac: true,

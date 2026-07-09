@@ -30,12 +30,12 @@ export const pricingRoutes = [
   },
   {
     route: 'Makkah Ziaraat',
-    tucson: 150,
-    sedan: 150,
-    h1staria: 200,
-    gmc: 300,
-    hiace: 300,
-    coaster: 400,
+    tucson: 170,
+    sedan: 170,
+    h1staria: 220,
+    gmc: 320,
+    hiace: 320,
+    coaster: 420,
   },
   {
     route: 'Makkah Hotel to Masjid Aisha TW',

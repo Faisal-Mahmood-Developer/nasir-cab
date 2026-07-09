@@ -90,7 +90,7 @@ export default function About() {
             className="order-2 lg:order-1"
           >
             <img
-              src="https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/og-image.jpg"
               alt={company.owner}
               className="rounded-2xl shadow-card-hover w-full h-96 object-cover"
             />

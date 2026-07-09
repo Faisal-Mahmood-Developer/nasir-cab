@@ -31,13 +31,13 @@ export const galleryImages = [
   },
   {
     id: 4,
-    src: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/airport.jpg',
     alt: 'Airport pickup service',
     category: 'Airport Pickup',
   },
   {
     id: 5,
-    src: 'https://images.pexels.com/photos/3954571/pexels-photo-3954571.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/interior.jpg',
     alt: 'Luxury car interior',
     category: 'Luxury Interior',
   },
@@ -61,7 +61,7 @@ export const galleryImages = [
   },
   {
     id: 9,
-    src: 'https://images.pexels.com/photos/7679706/pexels-photo-7679706.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/faisal.jpeg',
     alt: 'Madinah holy city',
     category: 'Holy Cities',
   },
@@ -97,13 +97,13 @@ export const galleryImages = [
   },
   {
     id: 15,
-    src: 'https://images.pexels.com/photos/3828935/pexels-photo-3828935.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/family.jpg',
     alt: 'Family with children traveling',
     category: 'Family Travel',
   },
   {
     id: 16,
-    src: 'https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=800',
+    src: '/og-image.jpg',
     alt: 'Professional chauffeur',
     category: 'Drivers',
   },
